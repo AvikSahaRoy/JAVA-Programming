@@ -20,5 +20,10 @@ class HelloWorld {
         // Set element into LinkedList ----------->>
         animals.add(3, "Tiger");
         System.out.println(animals); // [Cat, Hourse, Dog, Tiger, Cow]
+        
+        // Remove element into LinkedList ----------->>
+        String str1 = animals.remove(1); // remove Hourse
+        System.out.println(str1);
+        System.out.println(animals); // [Cat, Dog, Tiger, Cow]  
     }
 }
